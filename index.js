@@ -20,7 +20,7 @@ var app = express();
 app.use(logger('dev'));
 
 app.get('/', (req, res) => {
-  res.end('Use GET /:status');
+  res.end('<!DOCTYPE html><body><h3>Minimalistic web server that serves images with any requested HTTP status</h3><p>Usage: <code>GET /:status</code></p><p>Example: <a href="/418">/418</a></p><p>Check out the README <a href="https://github.com/jomo/ImgAnyStatus">on GitHub</a></p></body></html>');
 });
 
 app.get('/:status', (req, res) => {
