@@ -1,7 +1,7 @@
 {
   "name": "imganystatus",
   "version": "1.0.0",
-  "description": "Minimalistic web server that serves images with any requested HTTP status",
+  "description": "Minimalistic web server that serves images using any requested HTTP status",
   "main": "index.js",
   "scripts": {
     "start": "node --harmony_arrow_functions index.js",

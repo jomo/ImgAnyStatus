@@ -1,18 +1,18 @@
 # ImgAnyStatus
 
-Minimalistic web server that serves images with any requested HTTP status
+Minimalistic web server that serves images using any requested HTTP status
 
 ---
 
 ## API
 
-* `GET /200` returns an image with status code 200.
-* `GET /500` returns an image with status code 500.
-* `GET /404` returns an image with status code 404.
+* `GET /200` returns an image using status code 200.
+* `GET /500` returns an image using status code 500.
+* `GET /404` returns an image using status code 404.
 * You get the idea
 
 ## Image
-The picture itself is an SVG image with a big status *code* and the status *message* below.
+The picture itself is a plain-text SVG image with a big status *code* and the status *message* below.
 ![example](https://i.imgur.com/SyuEcX2.png)
 
 ## Note
