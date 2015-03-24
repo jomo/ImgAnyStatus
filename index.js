@@ -35,7 +35,7 @@ app.get('/:status', (req, res) => {
     sock.write('\r\n');
     sock.end(svg(code));
   } else {
-    sock.write('HTTP/1.1 ' + code + ' ' + status(code) + '\r\n');
+    sock.write('HTTP/1.1 ' + 406 + ' ' + status(406) + '\r\n');
     sock.write('Content-Type: text/plain\r\n');
     sock.write('Connection: close\r\n');
     sock.write('\r\n');
