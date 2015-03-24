@@ -1,0 +1,21 @@
+{
+  "name": "imganystatus",
+  "version": "1.0.0",
+  "description": "Minimalistic web server that serves images with any requested HTTP status",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony_arrow_functions index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "http",
+    "status"
+  ],
+  "author": "jomo",
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "^4.12.3",
+    "morgan": "^1.5.2"
+  }
+}
